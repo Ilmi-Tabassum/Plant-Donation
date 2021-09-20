@@ -1,0 +1,210 @@
+
+
+body{
+  background: -webkit-linear-gradient(left, #6cac96, #00c6ff);
+}
+* {
+  box-sizing: border-box;
+}
+
+.emp-profile{
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  border-radius: 4rem;
+  background: #fff;
+}
+
+
+.icon,
+.text {
+vertical-align: right;
+display: inline-block;
+}
+
+
+
+#hello:hover {
+letter-spacing: 0.1em;
+background-color: #ec6072;
+}
+
+#hello {
+color: #1e1f1c;
+
+}
+button {
+height: 4em;
+width: 25%;
+padding: 1em auto;
+margin: 1em auto;
+background-color: #27cec0;
+border: 3px;
+
+border-radius: 100px;
+text-transform: uppercase;
+letter-spacing: 0cm;
+transition: all 0.1s cubic-bezier(.4,0,.2,1);
+
+}
+.card{
+  display:inline-block;
+  
+   box-sizing:border-box;
+    cursor:pointer;
+  background-color: whitesmoke;
+  background-position: center ;
+    background-size: cover;
+    transition: transform 0.5s;
+  }
+
+
+    
+    h1 {
+      padding:16px;
+      font-size:22px;
+      color:black;
+      text-align: center;
+    }
+    
+    /* Form */
+    
+    .main-form {
+      background:#59a5b8;
+      padding:32px 20px;
+    }
+    
+    .form-group {
+      position: relative;
+      margin-bottom:28px;
+    }
+    
+    .gt-input {
+      width:400px;
+      height:48px;
+      padding:0 20px;
+      font-size:20px;
+      border:0;
+    }
+    
+    .gt-text {
+      padding:10px 20px;
+      height:100px;
+      width:100%;
+      font-family:"Roboto";
+      font-size:20px;
+    }
+    
+    .gt-input:focus {
+      outline:none;
+    }
+    
+    label {
+      position: absolute;
+      font-size:18px;
+      color:#aaa;
+      transition: all .4s;
+      top:24px;
+      transform:translateY(-50%);
+      margin-left:24px;
+      cursor:text;
+      z-index: 1;
+    }
+    
+    .gt-button {
+      width:100%;
+      height:60px;
+      font-size:20px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      border:0;
+      color:white;
+      background:#00485a;
+      transition:.4s;
+      cursor: pointer;
+    }
+    
+    .gt-button:hover {
+      background:#01708b;
+    }
+    
+    .form-status {
+      padding:8px;
+      text-align: center;
+      color:white;
+      margin-top:8px;
+      margin-bottom:-24px;
+    }
+    
+    .move-up {
+      margin-top:-32px;
+      margin-left:0px;
+      font-size:14px;
+      background:#ff0000;
+      border-radius:8px 0;
+      color:white;
+      padding:4px 8px;
+      min-width:100px;
+    }
+    .centered {
+      position: absolute;
+      top: -1500%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .center {
+      position: absolute;
+      top: -1400%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    
+    .center1 {
+      position: absolute;
+      top: -1000%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    p {
+      font-size: 14px;
+    }  
+
+    .carousel .item {
+      height: 200px;
+    }
+    
+    .item img {
+        position: absolute;
+        top: -100;
+        left: 0;
+        min-height: 200px;
+    }
+  .two-col {
+      overflow: hidden;/* Makes this div contain its floats */
+  }
+  
+  .two-col .col1,
+  .two-col .col2 {
+      width: 49%;
+  }
+  
+  .two-col .col1 {
+      float: left;
+  }
+  
+  .two-col .col2 {
+      float: right;
+  }
+  
+  .two-col label {
+      display: block;
+  }
+
+.input:invalid {
+    border: 3px solid red;
+}
+
+  
