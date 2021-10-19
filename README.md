@@ -1,4 +1,11 @@
 # Plant-Donation
+
+1. install xampp
+2. import the sql in phpmyadmin panel
+3. put the documents in xampp/htdocs folder.
+4. open localhost/Plant-Donation/index.php in browser
+
+
 The project is done following Vanilla PHP framework and the MVC pattern is maintained. 
 This is a demo presentation of my code :
 
