@@ -1,4 +1,5 @@
-# Plant-Donation
+# Save Plants Save Planet
+
 
 1. install xampp
 2. import the sql in phpmyadmin panel
